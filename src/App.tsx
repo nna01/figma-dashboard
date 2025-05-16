@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
 import Topbar from "./components/Topbar";
+import Main from "./components/Main";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Sidebar />
       <div className="flex-1 bg-gray-100">
         <Topbar />
-        <h1 className="text-xl font-bold">Main Content Area</h1>
+        <Main/>
       </div>
     </div>
   );
